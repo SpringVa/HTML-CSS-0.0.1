@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f6f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 30px auto;
+}
+
+.advantage {
+    box-sizing: border-box;
+    width: 550px;
+    height: 600px;
+    margin: 35px;
+    padding: 76px 72px 102px;
+    float: left;
+    background: #fff;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+    border-radius: 18px;
+}
+
+.advantage .title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 76px 0 50px;
+    color: #263238;
+}
+.advantage .text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #546e7a;
+}
+.advantage .number {
+    float: right;
+    color: #e8ecee;
+    font-size: 170px;
+    font-weight: 700;
+    line-height: 130px;
+}
